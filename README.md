@@ -41,8 +41,9 @@ We will then do a comparison of popularity between people that collaborate and p
 
 **Correlation between video frequency and views/subscribers?**
 
-We will use visualizations, such as scatter plots, to initially assess the relationship between the number of videos posted and channel views/subscriptions. Then we will calculate the basic statistics, examine the correlation, using Pearson's correlation coefficient. 
-Is there a cause-and-effect relationship?  To answer this question we plan to examine linear regression to see how changes in video quantity affect views and subscribers.  When analyzing the top ten subscribers, we will use effect size measures (such as Cohen's) to understand the practical significance of differences, not just statistical significance.
+We will use visualizations, such as scatter plots, to initially assess the relationship between the number of videos posted and channel views/subscriptions. Then we will calculate basic statistics, examine correlation, using Pearson's correlation coefficient. 
+
+Is there a cause-and-effect relationship? To answer this question we plan to examine linear regression to see how changes in video quantity affect views and subscribers. When analyzing the top ten subscribers, we will use effect size measures (such as Cohen's) to understand the practical significance of differences, not just statistical significance.
 
 
 **Network Analysis within Gaming Category:**
