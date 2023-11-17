@@ -35,7 +35,8 @@ We will evaluate the impact of collaborations on channel metrics such as views, 
 4.          youtube.com/user/YouTube
 
 We know that for URL 1) and 4) we can find the channel ID whereas in URL 2) and 3) we will find the channel names. Then channels are categorized into collaborators and non-collaborators based on their mention of other channels.
-We will then do a comparison of popularity between people that collaborate and people who do not with t-tests (either Welch's t-test (insensitive to variance) or the Mann-Whitny U-test (non-parametric)). In more detail, we will compare the means of views, subscribers and number of videos between groups of collaborators and groups of non-collaborators. We will also analyze the ten channels with the highest number of subscribers relative to the others to determine whether the differences in number of subscribers are significant for a greater number of collaborations. Finally we will plot the collaboration and non-collaboration graphs, with distribution graphs to examine skewness, and use the t-test to see if the difference is significant.
+
+We will then do a comparison of popularity between people that collaborate and people who do not with t-tests (either Welch's t-test (insensitive to variance) or the Mann-Whitny U-test (non-parametric)). We will analyses the ten channels with the highest number of subscribers relative to the others to determine whether the differences in number of subscribers are significant for a greater number of collaborations. Plot the collaboration and non-collaboration graphs, with distribution graphs to examine skewness.
 
 
 **Correlation between video frequency and views/subscribers?**
