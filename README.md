@@ -77,10 +77,15 @@ We will calculate Pearson's correlation coefficient and run a regression analysi
 
 ## Timeline
 17/11 : Final preprocessing, and start of analysis, clear definition of the project 
+
 24/11 : Homework 2
+
 31/11 : Start treating all of the research questions
+
 07/12 : Notebook should be final (all of research questions treated, different methods explored, storyline)
+
 14/12 : Website/article should be finished
+
 21/12 : Week to solve problems if any
 
 
