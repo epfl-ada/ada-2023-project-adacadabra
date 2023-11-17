@@ -5,8 +5,11 @@ Dataset : [YouNiverse](​​https://zenodo.org/records/4650046)
 
 ## Abstract
 Ever wondered about the dynamics of channel popularity on YouTube?
+
 Our study aims to explore the role of collaboration in boosting channel growth and revealing the intricate network of YouTube creators. Our goal is to offer a perspective on YouTube's collaborative landscape, equipping creators with insights to foster collaborations that align with evolving viewer trends.
+
 Leveraging the 'YouNiverse' dataset, we will analyze video metadata and descriptions to find collaborations and channel mentions. We will use viewer engagement metrics like views and likes to gauge the immediate and lasting impacts of these collaborations. What is the difference before/after collaborations? We are interested in whether collaborations spur growth and, if so, whether partnering with top channels in the same or different categories is more beneficial.
+
 Our study period is 2016-2019. We are focusing on categories like gaming, how-to-style, and people and blogs, where real interactions and collaborations are most evident.
 
 
