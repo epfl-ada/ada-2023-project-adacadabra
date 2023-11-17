@@ -45,6 +45,7 @@ Is there a cause-and-effect relationship?  To answer this question we plan to ex
 
 We plan to identify key influencers and collaboration patterns in the Gaming category. The objective is to construct a network graph representing channels as nodes and collaborations as edges.
 Then we will determine centrality measures to identify influential channels and analyze the frequency and scope of collaborations. To identify influential nodes and sub-networks in the games category we can use graph-theoretic measures (Louvain Community Detection). Visualization can be done through the application of NetworkX.
+
 Sources: 
 - https://memgraph.com/blog/community-detection-algorithms-with-python-networkx
 - https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae
