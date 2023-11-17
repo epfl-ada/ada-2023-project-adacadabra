@@ -1,7 +1,7 @@
 # Project : Decoding YouTube's Collaboration Web
 Team : ADAcadabra
 Team members : Lou De Bel-Air, Jiacheng Yang, Mats Hansen Frydenberg
-Dataset : YouNiverse (​​https://zenodo.org/records/4650046)
+Dataset : [YouNiverse](​​https://zenodo.org/records/4650046)
 
 ## Abstract
 Ever wondered about the dynamics of channel popularity on YouTube?
@@ -22,6 +22,7 @@ Our study period is 2016-2019. We are focusing on categories like gaming, how-to
 We use a dataset that includes data on YouTube channels and videos. This dataset includes channel statistics, chronological data on views and subscribers, and video metadata. We will focus first on channels in the Gaming category, then analyze the How-To and People & Blogs categories.
 The first step is the preprocessing, which consists in ensuring that all datasets (channel, timeseries and metadata) are properly aligned in terms of time frames. The data needs to be cleaned to handle missing values, outliers, and any anomalies.  
 
+
 **Collaboration Impact Analysis:**
 
 We will evaluate the impact of collaborations on channel metrics such as views, subscribers and number of videos. First, we need to filter collaborators in the Gaming category, using link templates in the description and identifying the channel's link types:
@@ -33,17 +34,21 @@ We will evaluate the impact of collaborations on channel metrics such as views, 
 We know that for URL 1) and 4) we can find the channel ID whereas in URL 2) and 3) we will find the channel names. Then channels are categorized into collaborators and non-collaborators based on their mention of other channels.
 We will then do a comparison of popularity between people that collaborate and people who do not with t-tests (either Welch's t-test (insensitive to variance) or the Mann-Whitny U-test (non-parametric)). In more detail, we will compare the means of views, subscribers and number of videos between groups of collaborators and groups of non-collaborators. We will also analyze the ten channels with the highest number of subscribers relative to the others to determine whether the differences in number of subscribers are significant for a greater number of collaborations. Finally we will plot the collaboration and non-collaboration graphs, with distribution graphs to examine skewness, and use the t-test to see if the difference is significant.
 
+
 **Correlation between video frequency and views/subscribers?**
 
 We will use visualizations, such as scatter plots, to initially assess the relationship between the number of videos posted and channel views/subscriptions. Then we will calculate the basic statistics, examine the correlation, using Pearson's correlation coefficient. 
 Is there a cause-and-effect relationship?  To answer this question we plan to examine linear regression to see how changes in video quantity affect views and subscribers.  When analyzing the top ten subscribers, we will use effect size measures (such as Cohen's) to understand the practical significance of differences, not just statistical significance.
 
+
 **Network Analysis within Gaming Category:**
 
 We plan to identify key influencers and collaboration patterns in the Gaming category. The objective is to construct a network graph representing channels as nodes and collaborations as edges.
 Then we will determine centrality measures to identify influential channels and analyze the frequency and scope of collaborations. To identify influential nodes and sub-networks in the games category we can use graph-theoretic measures (Louvain Community Detection). Visualization can be done through the application of NetworkX.
-Source: https://memgraph.com/blog/community-detection-algorithms-with-python-networkx
-https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae
+Sources: 
+- https://memgraph.com/blog/community-detection-algorithms-with-python-networkx
+- https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae
+
 
 **Channel Lifecycle and Collaboration Timing:** 
 
@@ -51,9 +56,10 @@ Our aim here is to understand a channel's lifecycle and identify when collaborat
 To this end, we will plot the evolution of the channels over time and identify the different phases (growth, plateau, decline). 
 When the maximum number of views reaches a plateau, we can examine the normal duration of this plateau. We will have to find the outliers, first plot and look at the distribution, then gather the top ten quartiles and see if they collaborated more than the others, had more videos etc.
 We plan to use Kaplan-Meier curves to estimate the survival function of a channel's 'top' status. 
-Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932959/
-If the data distribution is normal we can compare growth rates using a paired-samples t-test. If it is not, we can instead consider a non-parametric alternative such as the Wilcoxon signed-rank test.
-https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test
+[Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932959/)
+
+If the data distribution is normal we can compare growth rates using a paired-samples t-test. If it is not, we can instead consider a non-parametric alternative such as the [Wilcoxon signed-rank test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test).
+
 
 **Effect of Collaborations on Channel Growth:**
 
