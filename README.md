@@ -69,13 +69,14 @@ If the data distribution is normal we can compare growth rates using a paired-sa
 
 **Effect of Collaborations on Channel Growth:**
 
-Here, we will evaluate whether collaborations contribute to faster chain growth, using time series analysis. We will normalize time to collaboration events (t=0), in order to compare growth rates before and after collaborations. Then we will use difference-in-differences analysis, comparing video growth measurements with and without collaborations, from the same channel. Confidence intervals can be used to determine whether post-collaboration growth is statistically significant. 
-What happens if chains collaborate with other categories? We need to look at engagement metrics (views, likes, comments) to assess the differences in impact of collaboration. The use of difference-in-differences allows to examine the effect of collaborations within or outside the category. Comparative graphs highlight differences in engagement depending on the type of collaboration.
+Here, we will evaluate whether collaborations contribute to faster chain growth, using time series analysis. We will normalize time to collaboration events (t=0), in order to compare growth rates before and after collaborations. Then we will use difference-in-differences analysis, comparing video growth measurements with and without collaborations, from the same channel. Confidence intervals can be used to determine whether post-collaboration growth is statistically significant. What happens if channels collaborate with other categories? 
 
-Next we will look at when collaborations occur in a channel's lifecycle. We will use the lifecycle series previously computed to create interactive graphs showing the evolution of the channel and the timing of collaborations, and to show what happened next.
-Finally we will use some channels lifetime to determine whether collaborations can help you grow faster or extend the lifetime at the top? We want to know if there is an increase if channels collaborate with the ten most popular people?
+We need to look at engagement metrics (views, likes, comments) to assess the differences in impact of collaboration. The use of difference-in-differences allows to examine the effect of collaborations within or outside the category. 
+
+Next we will look at when collaborations occur in a channel's lifecycle. We will use the lifecycle series previously computed to create interactive graphs showing the evolution of the channel and the timing of collaborations, and to show what happened next. Finally we will use some channels lifetime to determine whether collaborations can help you grow faster or extend the lifetime at the top? We want to know if there is an increase if channels collaborate with the ten most popular people? 
 
 To solve this problem, we need to define the average growth rate, then examine the change after a collaboration, using an asymmetric distribution to test whether the new growth is statistically higher for the channel.
+
 
 **Correlation between Collaborator's Views/subscribes and Channel's Views:**
 
